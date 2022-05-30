@@ -8,6 +8,7 @@ spec:
       elements:
       - cluster: engineering-dev
         url: https://kubernetes.default.svc
+        namespace: guestbook        
       - cluster: engineering-prod
         url: https://kubernetes.default.svc
         namespace: guestbook2
