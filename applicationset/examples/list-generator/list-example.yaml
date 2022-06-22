@@ -23,5 +23,6 @@ spec:
         path: applicationset/examples/list-generator/guestbook/{{cluster}}
       destination:
         server: '{{url}}'
+        namespace: '{{namespace}}'
       syncPolicy:
         automated: {}
