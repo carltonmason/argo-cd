@@ -25,4 +25,4 @@ spec:
         server: '{{url}}'
         namespace: guestbook
         syncPolicy:
-        automated: {}
+          automated: {}
