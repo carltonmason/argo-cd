@@ -25,4 +25,6 @@ spec:
         server: '{{url}}'
         namespace: '{{namespace}}'
       syncPolicy:
+        syncOptions:
+          - ApplyOutOfSyncOnly=true
         automated: {}
